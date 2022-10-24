@@ -1,0 +1,14 @@
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\bin\Debug\netcoreapp3.1\regulares.exe
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\bin\Debug\netcoreapp3.1\regulares.deps.json
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\bin\Debug\netcoreapp3.1\regulares.runtimeconfig.json
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\bin\Debug\netcoreapp3.1\regulares.runtimeconfig.dev.json
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\bin\Debug\netcoreapp3.1\regulares.dll
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\bin\Debug\netcoreapp3.1\regulares.pdb
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.csproj.AssemblyReference.cache
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.AssemblyInfoInputs.cache
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.AssemblyInfo.cs
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.csproj.CoreCompileInputs.cache
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.dll
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.pdb
+C:\Users\FERNANDOMEJIA\source\repos\regulares\regulares\obj\Debug\netcoreapp3.1\regulares.genruntimeconfig.cache
