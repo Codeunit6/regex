@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text.RegularExpressions;
 
 namespace regulares
@@ -32,11 +32,14 @@ namespace regulares
                 case 2:
                     numero(cadena);
                     break;
-                
+                case 3:
+                    exit();
+                    break;
                 default:
                     Console.WriteLine("Opcion no valida porfavor intente de nuevo");
                     Console.ReadLine();
                     Console.Clear();
+                    menu();
                     break;
             }
         }
@@ -51,6 +54,18 @@ namespace regulares
                               cadena,
                               Regex.IsMatch(cadena, pattern, RegexOptions.IgnoreCase)
                                             ? "es" : "no es", TimeSpan.FromMilliseconds(500));
+                Console.WriteLine("Quiere volver al menu?");
+                Console.WriteLine("1 Si");
+                Console.WriteLine("2 No");
+                int opc = int.Parse(Console.ReadLine());
+                if (opc == 1)
+                {
+                    menu();
+                }
+                else
+                {
+                    exit();
+                }
             }
             catch (RegexMatchTimeoutException e)
             {
@@ -69,12 +84,28 @@ namespace regulares
                               cadena,
                               Regex.IsMatch(cadena, pattern, RegexOptions.IgnoreCase)
                                             ? "es" : "no es", TimeSpan.FromMilliseconds(500));
+                Console.WriteLine("Quiere volver al menu?");
+                Console.WriteLine("1 Si");
+                Console.WriteLine("2 No");
+                int opc = int.Parse(Console.ReadLine());
+                if (opc == 1)
+                {
+                    menu();
+                }
+                else
+                {
+                    exit();
+                }
             }
             catch (RegexMatchTimeoutException e)
             {
                 Console.WriteLine("Tiempo excedido {0} segundos coincidentes {1}",
                               e.MatchTimeout, e.Input);
             }
+        }
+        public static void exit()
+        {
+            Environment.Exit(1);
         }
     }
 }
